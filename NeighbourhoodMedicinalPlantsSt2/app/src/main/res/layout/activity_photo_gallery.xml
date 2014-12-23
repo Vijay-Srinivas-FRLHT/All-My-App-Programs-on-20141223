@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="org.frlht.neighbourhoodmedplants.neighbourhoodmedicinalplantsst2.PhotoGallery">
+
+    <TextView
+        android:id="@+id/photogallerymessageid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/photogallery_message" />
+
+    <Button
+        android:id="@+id/buttonBack"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="41dp"
+        android:text="@string/button_back" />
+
+    <Button
+        android:id="@+id/buttonNext"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/photogallerymessageid"
+        android:layout_below="@+id/photogallerymessageid"
+        android:layout_marginTop="88dp"
+        android:text="@string/button_next" />
+
+    <Button
+        android:id="@+id/buttonPrev"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@+id/buttonNext"
+        android:text="@string/button_prev" />
+
+</RelativeLayout>

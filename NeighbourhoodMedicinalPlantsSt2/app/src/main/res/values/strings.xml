@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Neighborhood Medicinal Plants</string>
+    <string name="welcome_message">Welcome to Neighborhood Medicinal Plants of Bengaluru City!</string>
+    <string name="action_settings">Settings</string>
+    <string name="str_tree">Tree</string>
+    <string name="str_herb">Herb</string>
+    <string name="str_shrub">Shrub</string>
+    <string name="str_climber">Climber</string>
+    <string name="title_activity_photo_gallery">PhotoGallery</string>
+    <string name="photogallery_message">Photogalleries of 6 plants (max) will come here!</string>
+    <string name="button_back">Back</string>
+    <string name="button_prev">&lt;</string>
+    <string name="button_next">></string>
+    <string name="hello_world">Hello world!</string>
+
+
+</resources>
